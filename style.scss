@@ -1,0 +1,57 @@
+$f1 : "Manrope", serif;
+$c1 : hsl(217, 19%, 35%);
+#card{
+    position: relative;
+}
+.drawer{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+h1{
+    font-family: $f1;
+    color: $c1;
+}
+h2{
+    font-family: $f1;
+    font-weight: 500;
+}
+.left{
+    img{
+        width: 50%;
+        border-radius: 50%;
+    }
+}
+h3{
+    font-family: $f1;
+
+}
+p{
+    font-family: $f1;
+}
+
+.profile{
+    display: flex;
+    gap: 0px;
+    
+}
+
+
+
+.share{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.share:hover +.footerblock{
+    opacity: 1;
+    visibility: visible;
+}
+
+.footerblock{
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 50px;
+}
