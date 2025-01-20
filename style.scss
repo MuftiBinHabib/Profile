@@ -43,6 +43,14 @@ p{
     bottom: 10px;
 }
 
+.share:hover{
+    background-color: $c1;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
 .share:hover +.footerblock{
     opacity: 1;
     visibility: visible;
@@ -53,5 +61,16 @@ p{
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    bottom: 50px;
+    bottom: 10px;
+    background-color: $c1;
+    color: white;
+    width: 100%;
+    gap: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 50px;
+}
+
+.icons{
+    padding-top: 15px;
 }
