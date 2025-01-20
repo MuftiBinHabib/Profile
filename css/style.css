@@ -1,0 +1,76 @@
+#card {
+  position: relative;
+}
+
+.drawer {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+h1 {
+  font-family: "Manrope", serif;
+  color: hsl(217, 19%, 35%);
+}
+
+h2 {
+  font-family: "Manrope", serif;
+  font-weight: 500;
+}
+
+.left img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+h3 {
+  font-family: "Manrope", serif;
+}
+
+p {
+  font-family: "Manrope", serif;
+}
+
+.profile {
+  display: flex;
+  gap: 0px;
+}
+
+.share {
+  position: absolute;
+  right: 0;
+  bottom: 44px;
+}
+
+.share:hover {
+  background-color: hsl(212, 23%, 69%);
+  color: hsl(210, 46%, 95%);
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.share:hover + .footerblock {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footerblock {
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0px;
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  gap: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-bottom: 50px;
+}
+
+.icons {
+  padding-top: 15px;
+}/*# sourceMappingURL=style.css.map */
