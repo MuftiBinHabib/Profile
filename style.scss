@@ -1,5 +1,7 @@
 $f1 : "Manrope", serif;
 $c1 : hsl(217, 19%, 35%);
+$c2 : hsl(212, 23%, 69%);
+$c3 : hsl(210, 46%, 95%);
 #card{
     position: relative;
 }
@@ -40,12 +42,12 @@ p{
 .share{
     position: absolute;
     right: 0;
-    bottom: 10px;
+    bottom: 44px;
 }
 
 .share:hover{
-    background-color: $c1;
-    color: white;
+    background-color: $c2;
+    color: $c3;
     padding: 10px;
     border-radius: 50%;
     z-index: 2;
@@ -61,13 +63,15 @@ p{
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     background-color: $c1;
     color: white;
     width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
     gap: 20px;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     padding-bottom: 50px;
 }
 
