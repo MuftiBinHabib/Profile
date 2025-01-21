@@ -1,0 +1,40 @@
+@media screen and (min-width : 1440px) {
+    .drawer{
+        border-radius: 15px 0 0 15px;
+    }
+
+   #card{
+    display: flex;
+    gap: 36px;
+   }
+
+
+   .right-main{
+    h1{
+        width: 50%;
+    }
+    h2{
+        width: 50%;
+    }
+   }
+
+   .profile{
+    .right{
+        width: 17%;
+    }
+   }
+
+   .share {
+    
+    right: 569px;
+    
+}
+
+.share:hover +.footerblock{
+    width: 20%;
+    position: absolute;
+    right: 30%;
+    bottom: 22%;
+    border-radius: 15px;
+}
+}
