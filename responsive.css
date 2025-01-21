@@ -37,4 +37,15 @@
     bottom: 22%;
     border-radius: 15px;
 }
+ .square {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 37%;
+    bottom: 2px;
+    background-color: hsl(217, 19%, 35%);
+    rotate: 45deg;
+    opacity: 1;
+    z-index: 1;
+}
 }
